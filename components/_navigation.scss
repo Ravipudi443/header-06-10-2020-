@@ -1,0 +1,22 @@
+nav {
+    color:white;
+}
+.navigation{
+    list-style: none;
+    float:right;
+
+    
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 30px;
+    
+
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
