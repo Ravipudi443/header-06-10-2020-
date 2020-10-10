@@ -13,6 +13,24 @@
 
     </head>
     <body>
+
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button"><span class="navigation__icon">&nbsp;</span></label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">About</a> </li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Opportunities</a> </li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Popular Stories</a> </li>
+
+                    <li class="navigation__item"><a href="#" class="navigation__link">Registration</a> </li>
+
+                    <li class="navigation__item"><a href="#" class="navigation__link">Terms and Conditions</a> </li>
+
+                </ul>
+            </nav>
+        </div>
     <header class="header">
 <div class="header__logo-box">
     <img src="img/kh_logo.png" alt="Kahaniya" class="header__logo">
@@ -28,13 +46,7 @@
 
 </div>
 
-<nav>
-    <ul class="navigation">
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact us</a></li>
-    </ul>
-</nav>
+
 </header>
 
 <main>
@@ -244,6 +256,64 @@ I had the best opportunity
 
         </div>
     </section>
+
+    <section class="section-book">
+        <div class="row">
+            <div class="book">
+                <div class="book__form">
+                 <form action="#" class="form">
+                    <div class="u-center-text u-margin-bottom-medium">
+                        <h2 class="heading-secondary">
+            Register Yourself         </h2>
+                    </div>
+                     <div class="form__group">
+                         <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                         <label for="name" class="form__label"></label>
+                         <input type="email" class="form__input" placeholder="Email" id="mail" required>
+                         <label for="mail" class="form__label"></label>
+                     </div>
+                     <div class="form__group">
+                         <div class="form__radio-group">
+                            <input type="radio" class="form__radio-input" id="large" name="size">
+                            <label for="large" class="form__radio-label"><span class="form__radio-button">Writer</span></label>
+                         </div>
+                         <div class="form__radio-group">
+                            <input type="radio" class="form__radio-input" id="small" name="size">
+                            <label for="small" class="form__radio-label"><span class="form__radio-button">Reader</span></label>
+                         </div>
+                         <a href="https://www.kahaniya.com/home"  target="blank" class="btn-text">Next Step &rarr;</a>
+
+                     </div>
+                 </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+
+<footer class="footer">
+    <div class="footer__logo-box">
+        <img src="img/kh_logo.png" alt="full logo" class="footer__logo">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                          <li class="footer__item"><a href="#" class="footer__link">Stories</a></li>
+                          <li class="footer__item"><a href="#" class="footer__link">Authors</a></li>
+                          <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                          <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                          <li class="footer__item"><a href="#" class="footer__link">Terms&Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">Ram Ravipudi and Copyright &copy;  Kahaniya.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
     </body>
 </html>
